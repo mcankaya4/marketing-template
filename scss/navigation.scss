@@ -1,0 +1,15 @@
+.Navigation {
+    height: 45px;
+    background-color: $color-nav-background;
+
+    .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    &-item {
+        padding-right: 35px;
+        font-size: 15px;
+    }
+}
