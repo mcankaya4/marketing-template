@@ -1,10 +1,9 @@
-@import "normalize.scss";
-@import "formalize.scss";
+@import "reset/normalize.scss";
+@import "reset/formalize.scss";
 
-@import "variable.scss";
-@import "global.scss";
+@import "general/variable.scss";
+@import "general/global.scss";
 
-@import "mixing.scss";
+@import "general/header.scss";
+@import "general/navigation.scss";
 
-@import "header.scss";
-@import "navigation.scss";
