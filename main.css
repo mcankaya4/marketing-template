@@ -511,4 +511,150 @@ h1 {
     color: white;
     border-radius: 4px;
     z-index: 2;
-    margin-top: 35px; }
+    margin-top: 35px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    outline: none;
+    color: 16px;
+    font-weight: bold; }
+
+.Slider {
+  height: 300px; }
+  .Slider .container {
+    height: 100%; }
+  .Slider-bg {
+    height: 100%;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 4px;
+    position: relative;
+    top: -100px;
+    -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2); }
+  .Slider-left {
+    padding-left: 10px; }
+    .Slider-left .icon {
+      width: 30px;
+      height: 30px;
+      color: #C6C6C5;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      outline: none;
+      cursor: pointer; }
+      .Slider-left .icon:hover {
+        color: #8BC34A; }
+  .Slider-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding-bottom: 10px; }
+    .Slider-item-img {
+      width: 250px;
+      height: 200px; }
+    .Slider-item-text {
+      display: block;
+      text-align: center;
+      margin-top: 5   px;
+      font-size: 18px; }
+    .Slider-item:hover {
+      color: #8BC34A; }
+  .Slider-right {
+    padding-right: 10px; }
+    .Slider-right .icon {
+      width: 30px;
+      height: 30px;
+      color: #C6C6C5;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      outline: none;
+      cursor: pointer; }
+      .Slider-right .icon:hover {
+        color: #8BC34A; }
+
+.Best-Seller {
+  height: 500px; }
+  .Best-Seller .container {
+    height: 100%; }
+  .Best-Seller-title {
+    font-size: 30px;
+    color: #8BC34A;
+    margin-bottom: 25px; }
+  .Best-Seller-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .Best-Seller-items-item {
+      border: 1px solid #E0E0E0;
+      border-radius: 4px;
+      width: 380px;
+      height: 380px; }
+      .Best-Seller-items-item-img {
+        width: 378px;
+        height: 280px; }
+      .Best-Seller-items-item-marka {
+        display: block;
+        margin-top: 20px;
+        padding-left: 20px;
+        color: #757575; }
+      .Best-Seller-items-item-name {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        margin-top: 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        .Best-Seller-items-item-name-text {
+          color: black; }
+          .Best-Seller-items-item-name-text:visited, .Best-Seller-items-item-name-text:link {
+            color: black; }
+          .Best-Seller-items-item-name-text:hover {
+            color: #8BC34A; }
+        .Best-Seller-items-item-name-button svg {
+          cursor: pointer;
+          color: #C6C6C5;
+          width: 20px;
+          height: 20px; }
+          .Best-Seller-items-item-name-button svg:hover {
+            color: #8BC34A; }
+      .Best-Seller-items-item-price {
+        padding-left: 20px;
+        color: #8BC34A;
+        font-size: 19px;
+        font-weight: bold; }
+  .Best-Seller-explore {
+    display: block;
+    text-align: center;
+    color: #757575;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 40px; }

@@ -31,6 +31,12 @@
                     d="M32 16v-12h-24c0-1.105-0.895-2-2-2h-6v2h4l1.502 12.877c-0.915 0.733-1.502 1.859-1.502 3.123 0 2.209 1.791 4 4 4h24v-2h-24c-1.105 0-2-0.895-2-2 0-0.007 0-0.014 0-0.020l26-3.98z">
                 </path>
             </symbol>
+            <symbol id="icon-redo2" viewBox="0 0 32 32">
+                <title>redo2</title>
+                <path
+                    d="M18 7.762v-7.762l12 12-12 12v-7.932c-13.961-0.328-13.362 9.493-9.808 15.932-8.772-9.482-6.909-24.674 9.808-24.238z">
+                </path>
+            </symbol>
             <symbol id="icon-search" viewBox="0 0 32 32">
                 <title>search</title>
                 <path
@@ -42,6 +48,20 @@
                 <path
                     d="M23.6 2c-3.363 0-6.258 2.736-7.599 5.594-1.342-2.858-4.237-5.594-7.601-5.594-4.637 0-8.4 3.764-8.4 8.401 0 9.433 9.516 11.906 16.001 21.232 6.13-9.268 15.999-12.1 15.999-21.232 0-4.637-3.763-8.401-8.4-8.401z">
                 </path>
+            </symbol>
+            <symbol id="icon-circle-right" viewBox="0 0 32 32">
+                <title>circle-right</title>
+                <path
+                    d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13z">
+                </path>
+                <path d="M11.086 22.086l2.829 2.829 8.914-8.914-8.914-8.914-2.828 2.828 6.086 6.086z"></path>
+            </symbol>
+            <symbol id="icon-circle-left" viewBox="0 0 32 32">
+                <title>circle-left</title>
+                <path
+                    d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13z">
+                </path>
+                <path d="M20.914 9.914l-2.829-2.829-8.914 8.914 8.914 8.914 2.828-2.828-6.086-6.086z"></path>
             </symbol>
         </defs>
     </svg>
@@ -58,8 +78,8 @@
             </div>
 
             <div class="Header-left">
-                <a class="Header-left-login" href="">Log in</a>
-                <a class="Header-left-singup" href="">Sing up</a>
+                <a class="Header-left-login" href="#">Log in</a>
+                <a class="Header-left-singup" href="#">Sing up</a>
                 <button class="Header-left-heart" type="button">
                     <svg class="icon icon-heart">
                         <use xlink:href="#icon-heart"></use>
@@ -76,23 +96,113 @@
 
     <nav class="Navigation">
         <div class="container">
-            <a class="Navigation-item" href="">Home Decor</a>
-            <a class="Navigation-item" href="">Furniture</a>
-            <a class="Navigation-item" href="">Lighting</a>
-            <a class="Navigation-item" href="">Home Accents</a>
-            <a class="Navigation-item" href="">Rugs</a>
-            <a class="Navigation-item" href="">Outdoors</a>
-            <a class="Navigation-item" href="">Holidays</a>
-            <a class="Navigation-item" href="">Gifts</a>
-            <a class="Navigation-item" href="">Events</a>
+            <a class="Navigation-item" href="#">Home Decor</a>
+            <a class="Navigation-item" href="#">Furniture</a>
+            <a class="Navigation-item" href="#">Lighting</a>
+            <a class="Navigation-item" href="#">Home Accents</a>
+            <a class="Navigation-item" href="#">Rugs</a>
+            <a class="Navigation-item" href="#">Outdoors</a>
+            <a class="Navigation-item" href="#">Holidays</a>
+            <a class="Navigation-item" href="#">Gifts</a>
+            <a class="Navigation-item" href="#">Events</a>
         </div>
     </nav>
 
-    <content class="Showcase">
-        <div class="Showcase-background"><img src="img/showcase-img.png"></div>
-        <h1 class="Showcase-title">We have dream to connect wholesalers to independent Customers</h1>
-        <button class="Showcase-button">Explore</button>
-    </content>
+    <main class="Main">
+        <section class="Showcase">
+            <div class="Showcase-background"><img src="img/showcase-img.png"></div>
+            <h1 class="Showcase-title">We have dream to connect wholesalers to independent Customers</h1>
+            <button class="Showcase-button">Explore</button>
+        </section>
+
+        <section class="Slider">
+            <div class="container">
+                <div class="Slider-bg">
+                    <button class="Slider-left">
+                        <svg class="icon icon-cart">
+                            <use xlink:href="#icon-circle-left"></use>
+                        </svg>
+                    </button>
+                    <a class="Slider-item" href="#">
+                        <img class="Slider-item-img" src="img/slider/1.png">
+                        <span class="Slider-item-text">Jewerly</span>
+                    </a>
+                    <a class="Slider-item" href="#">
+                        <img class="Slider-item-img" src="img/slider/2.png">
+                        <span class="Slider-item-text">Furniture</span>
+                    </a>
+                    <a class="Slider-item" href="#">
+                        <img class="Slider-item-img" src="img/slider/3.png">
+                        <span class="Slider-item-text">Makeup</span>
+                    </a>
+                    <a class="Slider-item" href="#">
+                        <img class="Slider-item-img" src="img/slider/4.png">
+                        <span class="Slider-item-text">Sports Equipment</span>
+                    </a>
+                    <button class="Slider-right">
+                        <svg class="icon icon-cart">
+                            <use xlink:href="#icon-circle-right"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="Best-Seller">
+            <div class="container">
+                <h3 class="Best-Seller-title">Top Seller</h3>
+                <div class="Best-Seller-items">
+                    <div class="Best-Seller-items-item">
+                        <img class="Best-Seller-items-item-img" src="img/seller/1.png">
+                        <a class="Best-Seller-items-item-marka" href="#">Cobalt Union</a>
+                        <div class="Best-Seller-items-item-name">
+                            <a class="Best-Seller-items-item-name-text" href="#">MERRY'S Cat Eye Sunglasses Women</a>
+                            <button class="Best-Seller-items-item-name-button" type="button">
+                                <svg class="icon icon-redo2">
+                                    <use xlink:href="#icon-redo2"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <span class="Best-Seller-items-item-price">$125.00</span>
+                    </div>
+
+                    <div class="Best-Seller-items-item">
+                        <img class="Best-Seller-items-item-img" src="img/seller/2.png">
+                        <span class="Best-Seller-items-item-marka">Cyrusshare</span>
+                        <div class="Best-Seller-items-item-name">
+                            <span class="Best-Seller-items-item-name-text">SAVA DECK300 Mountain Bike 29"</span>
+                            <button class="Best-Seller-items-item-name-button" type="button">
+                                <svg class="icon icon-redo2">
+                                    <use xlink:href="#icon-redo2"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <span class="Best-Seller-items-item-price">$1,399.99</span>
+                    </div>
+
+                    <div class="Best-Seller-items-item">
+                        <img class="Best-Seller-items-item-img" src="img/seller/3.png">
+                        <span class="Best-Seller-items-item-marka">Cobind pvt.</span>
+                        <div class="Best-Seller-items-item-name">
+                            <span class="Best-Seller-items-item-name-text">Premium Wood Luna Bench</span>
+                            <button class="Best-Seller-items-item-name-button" type="button">
+                                <svg class="icon icon-redo2">
+                                    <use xlink:href="#icon-redo2"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <span class="Best-Seller-items-item-price">$354.75</span>
+                    </div>
+
+                </div>
+                <a class="Best-Seller-explore" href="#">Explore More ></a>
+            </div>
+        </section>
+
+    </main>
+
+
+
 
 </body>
 

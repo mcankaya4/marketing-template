@@ -1,0 +1,88 @@
+.Best-Seller {
+    height: 500px;
+
+    .container {
+        height: 100%;
+    }
+
+    &-title {
+        font-size: 30px;
+        color: $color-green;
+        margin-bottom: 25px;
+    }
+
+
+    &-items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-item {
+            border: 1px solid $color-light-gray;
+            border-radius: 4px;
+            width: 380px;
+            height: 380px;
+            
+            &-img {
+                width: 378px;    
+                height: 280px;
+            }
+
+            &-marka {
+                display: block;
+                margin-top: 20px;
+                padding-left: $gutter;
+                color: $color-dark-gray;
+            }
+
+            &-name {
+                padding-left: $gutter;
+                padding-right: $gutter;
+                font-size: 16px;
+                margin-top: 5px;
+                display: flex;
+                justify-content: space-between;
+
+                &-text {
+                    color: black;
+
+                    &:visited, &:link {
+                        color: black;
+                    }
+
+                    &:hover {
+                        color: $color-green;
+                    }
+                }
+
+                &-button svg {
+                    cursor: pointer;
+                    color: $color-icon2;
+                    width: 20px;
+                    height: 20px;
+
+                    &:hover {
+                        color: $color-green;
+                    }
+                }
+
+            }
+
+            &-price {
+                padding-left: $gutter;
+                color: $color-green;
+                font-size: 19px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &-explore {
+        display: block;
+        text-align: center;
+        color: $color-dark-gray;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+}
