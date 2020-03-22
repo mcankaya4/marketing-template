@@ -1,0 +1,86 @@
+.Header {
+    height: 100px;
+
+    .container {
+        height         : 100%;
+        display        : flex;
+        align-items    : center;
+        justify-content: space-between;
+    }
+
+    &-logo img {
+        width : 166px;
+        height: 54px;
+    }
+
+    &-search {
+        width   : 370px;
+        height  : 40px;
+        position: relative;
+
+        &-input {
+            width        : 300px;
+            height       : 40px;
+            position     : absolute;
+            left         : 0;
+            outline      : none;
+            color        : $color-dark-gray;
+            box-sizing   : border-box;
+            padding-left : 15px;
+            border-radius: 4px 1px 1px 4px;
+            border       : 1px solid $color-light-gray;
+        }
+
+        &-button {
+            width           : 75px;
+            height          : 40px;
+            position        : absolute;
+            right           : 0;
+            background-color: $color-green;
+            color           : $color-white;
+            outline         : none;
+            border-radius   : 0 4px 4px 0;
+            cursor          : pointer;
+        }
+    }
+
+    &-left {
+        display: flex;
+
+        &-login, &-singup {
+            width: 100px;
+            border: 1px solid $color-dark-gray;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 4px;
+            margin-left: $gutter;
+        }
+
+        &-heart {
+            margin-left: $gutter;
+            cursor: pointer;
+            .icon {
+                width: 28px;
+                height: 26px;
+                color: $color-icon;
+            }
+
+        } 
+
+        &-cart {
+            margin-left: $gutter;
+            cursor: pointer;
+            .icon {
+                width: 28px;
+                height: 26px;
+                color: $color-icon;
+            }
+
+        } 
+
+        
+    }
+
+
+}
