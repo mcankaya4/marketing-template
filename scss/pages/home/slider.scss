@@ -1,0 +1,76 @@
+.Slider {
+    height: 300px;
+
+    .container {
+        height: 100%;
+        background-color: $color-white;
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        position: relative;
+        top: -100px;
+        box-shadow: 5px 5px 30px rgba($color: black, $alpha: 0.2);
+    }
+
+    &-left {
+        padding-left: 10px;
+
+        .icon {
+            width: 30px;
+            height: 30px;
+            color: $color-icon2;
+            user-select: none;
+            outline: none;
+            cursor: pointer;
+
+            &:hover {
+                color: $color-green;
+            }
+        }
+    }
+
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid $color-light-gray;
+        border-radius: 4px;
+        padding-bottom: 10px;
+
+        &-img {
+            width: 250px;
+            height: 200px;
+        }
+
+        &-text {
+            display: block;
+            text-align: center;
+            margin-top: 5   px;
+            font-size: 18px;
+
+            &:hover {
+                color: $color-green;
+            }
+        }
+    }
+
+
+    &-right {
+        padding-right: 10px;
+
+        .icon {
+            width: 30px;
+            height: 30px;
+            color: $color-icon2;
+            user-select: none;
+            outline: none;
+            cursor: pointer;
+
+            &:hover {
+                color: $color-green;
+            }
+        }
+    }
+}
