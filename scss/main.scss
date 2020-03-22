@@ -1,19 +1,9 @@
-@charset "utf-8";
+@import "variable.scss";
+@import "global.scss";
 
+@import "normalize.scss";
+@import "formalize.scss";
 
+@import "mixing.scss";
 
-
-
-
-
-body {
-
-
-
-
-
-
-    
-
-
-}
+@import "header.scss";
