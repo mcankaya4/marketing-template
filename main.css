@@ -658,3 +658,51 @@ h1 {
     font-weight: bold;
     font-size: 16px;
     margin-top: 40px; }
+
+.Why-Buyer {
+  margin-top: 120px; }
+  .Why-Buyer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline; }
+  .Why-Buyer-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 620px; }
+    .Why-Buyer-left-title {
+      font-size: 30px;
+      color: #8BC34A;
+      margin-bottom: 25px;
+      margin-top: 20px; }
+    .Why-Buyer-left-description {
+      font-size: 16px;
+      color: #757575;
+      margin-bottom: 25px; }
+    .Why-Buyer-left-button {
+      height: 40px;
+      width: 150px;
+      background-color: #8BC34A;
+      color: white;
+      border-radius: 4px;
+      outline: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      cursor: pointer; }
+  .Why-Buyer-right {
+    margin-left: 50px; }
+    .Why-Buyer-right img {
+      width: 380px;
+      height: 240px; }
