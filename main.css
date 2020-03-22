@@ -365,6 +365,9 @@ body {
 a, a:link, a:visited {
   color: #757575; }
 
+h1 {
+  font-size: 50px; }
+
 .icon {
   display: inline-block;
   width: 1em;
@@ -464,3 +467,48 @@ a, a:link, a:visited {
     font-size: 15px; }
     .Navigation-item:hover {
       color: #8BC34A; }
+
+.Showcase {
+  height: 650px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .Showcase-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+    .Showcase-background img {
+      width: 100%;
+      height: 650px; }
+  .Showcase-title {
+    width: 970px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    z-index: 1;
+    margin-top: 180px;
+    line-height: 60px;
+    -moz-text-align-last: center;
+         text-align-last: center; }
+  .Showcase-button {
+    width: 150px;
+    height: 50px;
+    background-color: #8BC34A;
+    color: white;
+    border-radius: 4px;
+    z-index: 2;
+    margin-top: 35px; }

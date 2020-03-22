@@ -1,0 +1,43 @@
+.Showcase {
+    height: 650px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        user-select: none;
+
+        img {
+            width: 100%;
+            height: 650px;
+        }
+    }
+
+    &-title {
+        width: 970px;
+        color: $color-white;
+        text-align: center ;
+        font-weight: lighter;
+        z-index: 1;
+        margin-top: 180px;
+        line-height: 60px;
+        text-align-last: center;
+    }
+
+    &-button {
+        width: 150px;
+        height: 50px;
+        background-color: $color-green;
+        color: $color-white;
+        border-radius: 4px;
+        z-index: 2;
+        margin-top: 35px;
+    }
+
+}

@@ -1,9 +1,14 @@
+// reset
 @import "reset/normalize.scss";
 @import "reset/formalize.scss";
 
+// general
 @import "general/variable.scss";
 @import "general/global.scss";
 
+// general
 @import "general/header.scss";
 @import "general/navigation.scss";
 
+// home pages
+@import "pages/home/showcase.scss"
