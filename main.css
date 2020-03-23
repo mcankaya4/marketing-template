@@ -814,3 +814,73 @@ h1 {
         color: #8BC34A;
         font-size: 19px;
         font-weight: bold; }
+
+.Footer {
+  margin-top: 100px; }
+  .Footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .Footer-chapters {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; }
+    .Footer-chapters-chapter {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .Footer-chapters-chapter-title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px; }
+      .Footer-chapters-chapter-item {
+        color: #1c1c1b !important;
+        margin-bottom: 20px; }
+        .Footer-chapters-chapter-item:hover {
+          color: #8BC34A !important; }
+    .Footer-chapters-chapter-iconlu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .Footer-chapters-chapter-iconlu-title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px; }
+      .Footer-chapters-chapter-iconlu-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 20px; }
+        .Footer-chapters-chapter-iconlu-item svg {
+          width: 20px;
+          height: 20px;
+          color: #8BC34A;
+          margin-right: 10px; }
+        .Footer-chapters-chapter-iconlu-item-text {
+          color: #1c1c1b !important; }
+          .Footer-chapters-chapter-iconlu-item-text:hover {
+            color: #8BC34A !important; }
+  .Footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #E0E0E0;
+    color: #757575; }
