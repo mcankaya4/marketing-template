@@ -1,0 +1,89 @@
+.Product-List {
+    margin-top: 120px;
+
+    .container {
+    }
+
+    &-items {
+        display              : grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-between;
+        grid-row-gap: 30px;
+
+        .large {
+            width : 608px;
+            height: 540px;
+            grid-column: span 2;
+            grid-row:  span 2;
+
+            img {
+                width : 606px;
+                height: 444px;
+            }
+        }
+
+        .medium {
+            width : 269px;
+            height: 290px;
+
+            img {
+                width : 267px;
+                height: 196px;
+            }
+        }
+
+        &-item {
+            border       : 1px solid $color-light-gray;
+            border-radius: 4px;
+
+            &-marka {
+                display     : block;
+                margin-top  : 20px;
+                padding-left: $gutter;
+                color       : $color-dark-gray;
+            }
+
+            &-name {
+                padding-left   : $gutter;
+                padding-right  : $gutter;
+                font-size      : 16px;
+                margin-top     : 5px;
+                display        : flex;
+                justify-content: space-between;
+
+                &-text {
+                    color: black;
+
+                    &:visited,
+                    &:link {
+                        color: black;
+                    }
+
+                    &:hover {
+                        color: $color-green;
+                    }
+                }
+
+                &-button svg {
+                    cursor: pointer;
+                    color : $color-icon2;
+                    width : 20px;
+                    height: 20px;
+
+                    &:hover {
+                        color: $color-green;
+                    }
+                }
+
+            }
+
+            &-price {
+                padding-left: $gutter;
+                color       : $color-green;
+                font-size   : 19px;
+                font-weight : bold;
+            }
+
+        }
+    }
+}

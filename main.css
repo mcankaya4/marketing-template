@@ -708,7 +708,7 @@ h1 {
       height: 240px; }
 
 .Why-Seller {
-  margin-top: 120px; }
+  margin-top: 140px; }
   .Why-Seller .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -753,3 +753,64 @@ h1 {
           -ms-user-select: none;
               user-select: none;
       cursor: pointer; }
+
+.Product-List {
+  margin-top: 120px; }
+  .Product-List-items {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    grid-row-gap: 30px; }
+    .Product-List-items .large {
+      width: 608px;
+      height: 540px;
+      grid-column: span 2;
+      grid-row: span 2; }
+      .Product-List-items .large img {
+        width: 606px;
+        height: 444px; }
+    .Product-List-items .medium {
+      width: 269px;
+      height: 290px; }
+      .Product-List-items .medium img {
+        width: 267px;
+        height: 196px; }
+    .Product-List-items-item {
+      border: 1px solid #E0E0E0;
+      border-radius: 4px; }
+      .Product-List-items-item-marka {
+        display: block;
+        margin-top: 20px;
+        padding-left: 20px;
+        color: #757575; }
+      .Product-List-items-item-name {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        margin-top: 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        .Product-List-items-item-name-text {
+          color: black; }
+          .Product-List-items-item-name-text:visited, .Product-List-items-item-name-text:link {
+            color: black; }
+          .Product-List-items-item-name-text:hover {
+            color: #8BC34A; }
+        .Product-List-items-item-name-button svg {
+          cursor: pointer;
+          color: #C6C6C5;
+          width: 20px;
+          height: 20px; }
+          .Product-List-items-item-name-button svg:hover {
+            color: #8BC34A; }
+      .Product-List-items-item-price {
+        padding-left: 20px;
+        color: #8BC34A;
+        font-size: 19px;
+        font-weight: bold; }
