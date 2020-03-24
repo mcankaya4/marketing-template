@@ -904,6 +904,7 @@ h1 {
   -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
           box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3); }
   .Login-Modal-icon {
+    outline: none;
     margin-left: auto;
     margin-right: 15px;
     margin-top: 15px;
@@ -1042,5 +1043,151 @@ h1 {
       margin-left: 20px;
       color: #8BC34A !important; }
       .Login-Modal-bottom-register:hover {
+        background-color: #8BC34A;
+        color: white !important; }
+
+.Register-Modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  height: 710px;
+  border-radius: 4px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3); }
+  .Register-Modal-icon {
+    outline: none;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    cursor: pointer; }
+    .Register-Modal-icon svg {
+      width: 20px;
+      height: 20px; }
+  .Register-Modal-logo {
+    margin-bottom: 20px; }
+    .Register-Modal-logo img {
+      width: 166px;
+      height: 54px; }
+  .Register-Modal-username {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding-left: 15px;
+    margin-bottom: 25px; }
+  .Register-Modal-fullname {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding-left: 15px;
+    margin-bottom: 25px; }
+  .Register-Modal-email {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding-left: 15px;
+    margin-bottom: 25px; }
+  .Register-Modal-password {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding-left: 15px;
+    margin-bottom: 20px; }
+  .Register-Modal-button {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 20px;
+    background-color: #8BC34A;
+    color: white !important;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px; }
+  .Register-Modal-or {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 400px;
+    color: #757575;
+    margin-bottom: 30px; }
+    .Register-Modal-or:before {
+      content: '';
+      margin-right: 10px;
+      margin-top: 8px;
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px solid #E0E0E0; }
+    .Register-Modal-or:after {
+      content: '';
+      margin-left: 10px;
+      width: 100%;
+      margin-top: 8px;
+      height: 1px;
+      border-bottom: 1px solid #E0E0E0; }
+  .Register-Modal-icon-title {
+    margin-bottom: 20px; }
+  .Register-Modal-icons {
+    cursor: pointer;
+    margin-bottom: 40px; }
+    .Register-Modal-icons-icon {
+      cursor: pointer;
+      margin-left: 10px;
+      margin-right: 10px; }
+      .Register-Modal-icons-icon svg.icon-facebook2 {
+        width: 42px;
+        height: 42px;
+        color: #3b5998; }
+      .Register-Modal-icons-icon svg.icon-google-plus2 {
+        width: 42px;
+        height: 42px;
+        color: #dc4e41; }
+      .Register-Modal-icons-icon svg.icon-vimeo2 {
+        width: 42px;
+        height: 42px;
+        color: #cb2027; }
+  .Register-Modal-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-top: 1px solid #E0E0E0;
+    width: 400px;
+    padding-top: 15px; }
+    .Register-Modal-bottom-text {
+      color: #757575; }
+    .Register-Modal-bottom-register {
+      width: 100px;
+      border: 1px solid #8BC34A;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 4px;
+      margin-left: 20px;
+      color: #8BC34A !important; }
+      .Register-Modal-bottom-register:hover {
         background-color: #8BC34A;
         color: white !important; }
