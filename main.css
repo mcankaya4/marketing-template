@@ -762,8 +762,11 @@ h1 {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    grid-auto-rows: -webkit-min-content;
+    grid-auto-rows: min-content;
     grid-row-gap: 30px; }
     .Product-List-items .large {
+      border: 1px solid green;
       width: 608px;
       height: 540px;
       grid-column: span 2;
@@ -772,6 +775,7 @@ h1 {
         width: 606px;
         height: 444px; }
     .Product-List-items .medium {
+      border: 1px solid red;
       width: 269px;
       height: 290px; }
       .Product-List-items .medium img {
@@ -884,3 +888,162 @@ h1 {
     padding-bottom: 20px;
     border-top: 1px solid #E0E0E0;
     color: #757575; }
+
+.Login-Modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  height: 615px;
+  border-radius: 4px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3); }
+  .Login-Modal-icon {
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    cursor: pointer; }
+    .Login-Modal-icon svg {
+      width: 20px;
+      height: 20px; }
+  .Login-Modal-logo {
+    margin-bottom: 20px; }
+    .Login-Modal-logo img {
+      width: 166px;
+      height: 54px; }
+  .Login-Modal-username {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding-left: 15px;
+    margin-bottom: 20px; }
+  .Login-Modal-password {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding-left: 15px;
+    margin-bottom: 20px; }
+  .Login-Modal-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 400px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px; }
+    .Login-Modal-row-checkbox {
+      color: #8BC34A; }
+    .Login-Modal-row-text {
+      color: #757575;
+      margin-left: 7px; }
+    .Login-Modal-row-forgot {
+      margin-left: auto; }
+      .Login-Modal-row-forgot:hover {
+        color: #8BC34A; }
+  .Login-Modal-row2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px; }
+    .Login-Modal-row2-login {
+      width: 100px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 4px;
+      margin-left: 20px;
+      background-color: #8BC34A;
+      color: white !important; }
+    .Login-Modal-row2-login-as {
+      width: 140px;
+      border: 1px solid #757575;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 4px;
+      margin-left: 20px; }
+      .Login-Modal-row2-login-as:hover {
+        color: #8BC34A; }
+  .Login-Modal-or {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 400px;
+    color: #757575;
+    margin-bottom: 30px; }
+    .Login-Modal-or:before {
+      content: '';
+      margin-right: 10px;
+      margin-top: 8px;
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px solid #E0E0E0; }
+    .Login-Modal-or:after {
+      content: '';
+      margin-left: 10px;
+      width: 100%;
+      margin-top: 8px;
+      height: 1px;
+      border-bottom: 1px solid #E0E0E0; }
+  .Login-Modal-icon-title {
+    margin-bottom: 20px; }
+  .Login-Modal-icons {
+    cursor: pointer;
+    margin-bottom: 40px; }
+    .Login-Modal-icons-icon {
+      cursor: pointer;
+      margin-left: 10px;
+      margin-right: 10px; }
+      .Login-Modal-icons-icon svg.icon-facebook2 {
+        width: 42px;
+        height: 42px;
+        color: #3b5998; }
+      .Login-Modal-icons-icon svg.icon-google-plus2 {
+        width: 42px;
+        height: 42px;
+        color: #dc4e41; }
+      .Login-Modal-icons-icon svg.icon-vimeo2 {
+        width: 42px;
+        height: 42px;
+        color: #cb2027; }
+  .Login-Modal-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-top: 1px solid #E0E0E0;
+    width: 400px;
+    padding-top: 15px; }
+    .Login-Modal-bottom-text {
+      color: #757575; }
+    .Login-Modal-bottom-register {
+      width: 100px;
+      border: 1px solid #8BC34A;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 4px;
+      margin-left: 20px;
+      color: #8BC34A !important; }
+      .Login-Modal-bottom-register:hover {
+        background-color: #8BC34A;
+        color: white !important; }
